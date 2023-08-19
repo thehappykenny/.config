@@ -32,10 +32,10 @@ keymap = [
 	{ keys = [ "9" ],		command = "numbered_command 9" },
 
 	# arrow keys
-	# { keys = [ "arrow_up" ],	command = "cursor_move_up" },
-	# { keys = [ "arrow_down" ],	command = "cursor_move_down" },
-	# { keys = [ "arrow_left" ],	command = "cd .." },
-	# { keys = [ "arrow_right" ],	command = "open" },
+	{ keys = [ "arrow_up" ],	command = "cursor_move_up" },
+	{ keys = [ "arrow_down" ],	command = "cursor_move_down" },
+	{ keys = [ "arrow_left" ],	command = "cd .." },
+	{ keys = [ "arrow_right" ],	command = "open" },
 	{ keys = [ "\n" ],		command = "open" },
 	{ keys = [ "home" ],		command = "cursor_move_home" },
 	{ keys = [ "end" ],		command = "cursor_move_end" },

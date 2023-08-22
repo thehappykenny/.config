@@ -21,7 +21,7 @@ show_icons = true
 # Shorten /home/$USER to ~
 tilde_in_titlebar = true
 # none, absolute, relative
-line_number_style = "none"
+line_number_style = "absolute"
 
 [display.sort]
 # Options include

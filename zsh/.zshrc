@@ -109,5 +109,5 @@ source ~/.config/fzf/key-bindings.zsh
 source ~/.config/fzf/completion.zsh
 export RANGER_LOAD_DEFAULT_RC=false
 # my global proxy!
-#export http_proxy="http://127.0.0.1:38457"
-#export https_proxy="http://127.0.0.1:38457"
+# export http_proxy="http://127.0.0.1:38457"
+# export https_proxy="http://127.0.0.1:38457"

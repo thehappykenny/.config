@@ -99,15 +99,14 @@ plugins=(git)
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
+source ~/.config/zsh/alias.zsh
+#source ~/.bashrc
 # fzf in "vim \"
 source ~/.config/fzf/fzf.zsh
 source ~/.config/fzf/key-bindings.zsh
 source ~/.config/fzf/completion.zsh
 export RANGER_LOAD_DEFAULT_RC=false
+
 # my global proxy!
 # export http_proxy="http://127.0.0.1:38457"
 # export https_proxy="http://127.0.0.1:38457"
